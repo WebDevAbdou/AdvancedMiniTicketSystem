@@ -1,0 +1,9 @@
+2025-05-19 18:16:10.784378+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTS" not found (this database is empty); SQL statement:
+SELECT * FROM events ORDER BY date, time [42104-224]
+2025-05-19 18:16:12.354179+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTS" not found (this database is empty); SQL statement:
+SELECT * FROM events ORDER BY date, time [42104-224]
+2025-05-19 18:16:12.478344+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOKINGS" not found (this database is empty); SQL statement:
+SELECT * FROM bookings ORDER BY booking_time DESC [42104-224]
